@@ -10,4 +10,7 @@ def Repeat(x):
 Num=int(input())
 list1=list(map(int,input().split()))
 n=sorted(Repeat(list1))
-print (*n)
+if len(n)!=0:
+    print(*n)
+else:
+    print('unique')
