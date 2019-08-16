@@ -7,6 +7,6 @@ for i in range(len(num)):
          if(mum[j]==num[i]):
              sum=sum+1
 if(sum==n-1):
-    print('yes')
+    print('YES')
 else:
-    print('no')
+    print('NO')
